@@ -1,0 +1,253 @@
+/*GLOBAL*/
+@font-face {
+    font-family: RedSeven;
+    src: url(fonts/fonts/Red Seven.ott);
+}
+@font-face {
+    font-family: WalkWay_black;
+    src: url(fonts/fonts/Walkway Black.ttf);
+}
+@font-face {
+    font-family: WalkWay_condensed;
+    src: url(fonts/fonts/Walkway Condensed.ttf);
+}
+@font-face {
+    font-family: WalkWay_expand;
+    src: url(fonts/fonts/Walkway Expand.ttf);
+}
+@font-face {
+    font-family: WalkWay_oblique_black;
+    src: url(fonts/fonts/Walkway Oblique Black.ttf);
+}
+@font-face {
+    font-family: WalkWay_oblique_expand;
+    src: url(fonts/fonts/Walkway Oblique Expand.ttf);
+}
+nav {
+  position: fixed;
+  background-color: transparent;
+  font-family: WalkWay_black;
+}
+a {
+  text-decoration: none; 
+}
+body{
+  background-color: black;
+}
+.item > img{
+  width: 100%;
+  height: auto;
+}
+
+/*Text-color*/
+.txt-gold{
+  color: #CFAD44;
+}
+.txt-brown{
+  color: #8A5B2F;
+}
+.txt-white {
+  color: white; 
+}
+
+/*Backgrounds*/
+.bg-black{
+  background-color: black;
+}
+
+/*Margin & padding*/
+.mg0{
+  margin: 0% !important;
+}
+.pd0{
+  padding: 0% !important;
+}
+.pd2{
+  padding: 2%;
+}
+.pd5 {
+  padding: 5%;
+}
+.w5{
+  width: 5% !important;
+}
+
+
+/*//////////////// INTRO-PAGE ////////////////////*/
+.logo{
+  width: 13%;
+}
+.btnline{
+  border: 1px solid #8A5B2F;
+  padding: 1%;
+  margin:5%; 
+  display: inline-block;
+  width: 25%;
+  font-size:.7em;
+}
+.btnline:hover{
+ background-color: rgba(207, 173, 68, 0.6);
+ color:#2E2E2E ;
+}
+
+/*div video*/
+.captionvd{
+  width: 100%;
+  background-color: transparent;
+  padding-top: 7%;
+  position: relative;
+  z-index: 1;
+}
+video{
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  position: absolute;
+}
+
+/*//////// INDEX ///////////////*/
+.tittle {
+  transform: rotate(270deg);
+  transform-origin: left top 0;
+  font-family:RedSeven;
+  font-size: 4em;
+  float: inherit;
+  margin-top: 16%;
+  position: absolute;
+  z-index: 0;
+}
+.row{
+  z-index: 1;
+}
+.download:hover{
+ text-decoration: none;
+ background-image:url(../img/icons/downloadCVhover.png); 
+ width: 25%; 
+}
+/*Main*/
+.navbar-nav {
+    float: left;
+    margin-left: 25%;
+    margin-top: 0%;
+}
+.navbar-nav li > a{
+  color: #CFAD44;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.navbar-nav li > a:hover{
+ background-color: rgba(46, 46,46, 0.6) !important;
+ color:#CFAD44 !important;
+}
+.navbar-nav li > a:visited{
+ background-color: rgba(255, 255, 255, 0.6) !important;
+ color:#CFAD44 !important;
+}
+
+/*AboutMe*/
+.logo-slide{
+  width: 80%;
+}
+.download{
+  width: 25%;
+  color: #8A5B2F;
+}
+
+/*SKILLS*/
+#skills{
+  background-color: #CFAD44;
+}
+.icon-skills{
+  padding-top: 25%; 
+  width: 60% 
+}
+
+.progress {
+  background-color: #2E2E2E;
+  border: 2px solid #2E2E2E;
+  margin-bottom: 1%; 
+  height: 1em;
+}
+.progress-bar {
+  background-color: #8A5B2F;
+  margin-bottom: 2%;
+}
+.txt-bar{
+  margin: 2% 1%;
+}
+
+/*PORTFOLIO*/
+.portfolio-sec{
+  width: 80%;
+  text-align: center;
+  font-size: 5em;
+  padding: 25% 5% 25% 5%;
+  color:#8A5B2F; 
+}
+
+/*CONTACME*/
+.social{
+display: inline-block;
+width: 30%;
+height: auto;
+border-radius: 50%;
+background-color: #CFAD44;
+font-weight: bolder;
+padding: 2%;
+}
+
+/*FOOTER*/
+footer, #contact {
+  background-color: white;
+  padding: 1%;
+  color: #CFAD44;
+}
+#contact > .fa{
+  color: #CFAD44;
+  text-decoration: none;
+}
+.logo-footer{
+  width: 3%;
+  margin-bottom: 1%;
+}
+
+
+/*MODAL*/
+
+
+/*////////////////////////////////////////////////////////*/
+
+
+/*PORTFOLIO-PAGES*/
+.img-screen{
+  width: 50%;
+  margin: 5%;
+}
+.div-description{
+  border: 1px solid #8A5B2F;
+  padding: 10%; 
+  display: inline-block;
+  z-index: 1;
+  color: #CFAD44; 
+  margin: 5%;
+}
+
+/*Padding*/
+.pd-10 {
+  padding: 10% 5% 10% 5%; }
+
+.pd10 {
+  padding: 10% 10% 0% 10%; }
+
+
+.pd2 {
+  padding: 2%; }
+
+.pd1 {
+  padding: 1%; }
+
+.pt-5 {
+  padding-top: 5%; }
+
+.pl-15 {
+  padding-left: 15%; }

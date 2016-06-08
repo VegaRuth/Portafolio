@@ -40,10 +40,6 @@ a {
 body{
   background-color: white;
 }
-.item>img{
-  width:100%;
-  height:auto;
-}
 
 /*Text-color*/
 .txt-gold{
@@ -62,10 +58,9 @@ body{
 /*Backgrounds*/
 .bg-black{
   background-color: black ;
-
 }
 .bg-white{
-  background-color: rgba(255,255,255, 0.8);
+  background-color: rgba(255,255,255, 0.6);
 }
 
 /*Margin & padding*/
@@ -83,6 +78,9 @@ body{
 }
 .pd3{
   padding: 3%,
+}
+.pd4{
+  padding:4%;
 }
 .pd5 {
   padding: 5%;
@@ -133,17 +131,22 @@ video{
   z-index: 0; 
   width: 4%; 
 }
-.row{
-  z-index: 1;
-}
+
 /*Main*/
 .navbar-nav {
     float: left;
-    margin-left: 25%;
     margin-top: 0%;
+    background-color: transparent !important;
+}
+ .sr-only{
+  color: white important;
+}
+.navbar-toggle{
+background-color:rgba(94, 94,94, 0.6);
+text-shadow: 2px 2px rgba(94, 94,94, 0.6);
 }
 .navbar-nav li > a{
-  color: #C0A062;
+  color: #5E0E25;
   font-weight: bold;
   font-size: 1.5em;
   text-shadow: 2px 2px rgba(94, 94,94, 0.6);
@@ -155,7 +158,7 @@ video{
 }
 .navbar-nav li > a:visited{
  background-color: rgba(138, 91, 47, 0.6);
- color:white;
+ 
 }
 
 /*AboutMe*/
@@ -314,3 +317,45 @@ footer, #contact {
 
 .pl-15 {
   padding-left: 15%; }
+/*/////MediaQuerys////////
+
+
+
+@media  ( max-width : 749px )  {
+  h3, h2, h1{
+    font-size: 45%; }
+  .word{
+    font-size: 85%;
+    } 
+  
+  } 
+
+
+@media  ( min-width : 750px )  {
+  h3, h2, h1{
+    font-size: 70%; }
+  .word{
+    font-size: 85%;
+    } 
+  
+  }
+
+  @media  ( min-width: 970px )  {
+  h3, h2, h1{
+    font-size: 55%; }
+  .word{
+    font-size: 85%;
+    } 
+  
+  }
+  
+
+  @media  ( min-width : 1170px )  {
+  h3, h2, h1{
+    font-size: 45%; }
+  .word{
+    font-size: 125%;
+    } 
+  
+  }
+*/

@@ -38,7 +38,7 @@ a {
   text-decoration: none; 
 }
 body{
-  background-color: black;
+  background-color: white;
 }
 .item>img{
   width:100%;
@@ -61,7 +61,11 @@ body{
 
 /*Backgrounds*/
 .bg-black{
-  background-color: black;
+  background-color: black ;
+
+}
+.bg-white{
+  background-color: rgba(255,255,255, 0.8);
 }
 
 /*Margin & padding*/
@@ -76,6 +80,9 @@ body{
 }
 .pd2{
   padding: 2%;
+}
+.pd3{
+  padding: 3%,
 }
 .pd5 {
   padding: 5%;
@@ -122,20 +129,12 @@ video{
   transform: rotate(270deg);
   transform-origin: left top 0;
   font-family: "Walkway Expand";
-  font-weight: 900;
-  font-size: 3.5em;
   float: inherit;
-  margin-top: 24%;
   position: absolute;
   z-index: 0;  
 }
 .row{
   z-index: 1;
-}
-.download:hover{
- text-decoration: none;
- background-image:url(img/icons/downloadCVhover.png); 
- width: 25%; 
 }
 /*Main*/
 .navbar-nav {
@@ -160,32 +159,34 @@ video{
 }
 
 /*AboutMe*/
-.quotes{
-  font-family: "WalkwayObliqueBlack", Serif;
-  font-size: 2.1em;
+.background-image{
+  background-image: url("../img/Ruthb-n.png");
+  background-size: 100%;
+  height: auto;
+  background-repeat: no-repeat;
 }
+
 .txt-small{
   font-size: 16px;
 }
 .big-left{
- margin-left: -35%;
  float: left;
 }
 .big-right{
-  margin-right: -35%;
   float: right;
 }
 .big-txt{
   font-family: "RedSeven", Serif;
   position: relative;
-  font-size: 2em;
+  font-size: 1em;
 }
 .logo-slide{
-  width: 57%;
+  width: 40%;
 }
 .download{
-  width: 25%;
+  width: 85%;
   color: #8A5B2F;
+  padding: 5% 2% 5% 2%;
 }
 
 /*SKILLS*/
@@ -224,6 +225,11 @@ video{
 }
 
 /*CONTACME*/
+#ContactoTitulo{
+  color: white;
+  font-size:2em ;
+  margin-top:5%;
+}
 .social{
 display: inline-block;
 width: 30%;
@@ -237,7 +243,7 @@ padding: 2%;
 /*FOOTER*/
 footer, #contact {
   font-size: 10px;
-  background-color: white;
+  background-color: #5E0E25;
   padding-top: 1%;
 }
 #contact > .fa{

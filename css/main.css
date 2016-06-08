@@ -90,6 +90,9 @@ body{
 .w5{
   width: 5% !important;
 }
+.w30{
+  width: 30%;
+}
 
 
 /*//////////////// INTRO-PAGE ////////////////////*/
@@ -126,12 +129,9 @@ video{
 
 /*//////// HOME ///////////////*/
 .tittle {
-  transform: rotate(270deg);
-  transform-origin: left top 0;
-  font-family: "Walkway Expand";
-  float: inherit;
-  position: absolute;
-  z-index: 0;  
+  position: relative;
+  z-index: 0; 
+  width: 4%; 
 }
 .row{
   z-index: 1;
@@ -225,20 +225,8 @@ video{
 }
 
 /*CONTACME*/
-#ContactoTitulo{
-  color: white;
-  font-size:2em ;
-  margin-top:5%;
-}
-.social{
-display: inline-block;
-width: 30%;
-height: auto;
-border-radius: 50%;
-background-color: #C0A062;
-font-weight: bolder;
-padding: 2%;
-}
+
+
 
 /*FOOTER*/
 footer, #contact {

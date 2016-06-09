@@ -62,15 +62,43 @@
 
 <section id="design-works" class="pd5">
     <div class="container">
-    
+
+
+        <div class="row pd5">
+           <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"> <!--TO DO APP-->
+            <center>
+                <img src="img/portfolio/web/logos/toDoAppLogo.png?w=400" 
+                data-zoom="img/portfolio/web/ToDo.png?w=1200" class="img-responsive">
+            </center>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <div class="div-description">
+                    <p></p>
+                   <h3>To Do App</h3>
+                    <p>Elaboración de javascript, Diseño y Maquetado, Bootstrap, Responsive Design, Javascript, jQuery, CSS, HTML.
+                    </p>
+                    <center>
+                     <a href=".html"><div class="btnline-small">Ver Sitio</div></a> 
+                    <a href=".html"><div class="btnline-small"> Ir a Github</div></a>   
+                    </center>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
         <div class="row pd5">
            <div class="col-xs-12 col-md-8 col-lg-8"> <!--TO DO APP-->
             <center>
-                <img src="img/portfolio/web/ToDo.png" class="img-responsive">
+                <img src="img/portfolio/web/ToDo.png?w=400" 
+                data-zoom="img/portfolio/web/ToDo.png?w=1200" class="img-responsive">
             </center>
             </div>
             <div class="col-xs-12 col-md-4 col-lg-4">
                 <div class="div-description">
+                    <p></p>
                    <h3>To Do App</h3>
                    <small>2016</small>
                     <ul>
@@ -257,6 +285,20 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 
+
+<!-- Zoom-->
+<script src="js/dist/Drift.js"></script>
+<script>
+    
+      new Drift(document.querySelector('.drift-demo-trigger'), {
+        paneContainer: document.querySelector('.detail'),
+        inlinePane: 900,
+        inlineOffsetY: -85,
+        containInline: true,
+        hoverBoundingBox: true
+      });
+    
+</script>
 
 </body>
 </html>

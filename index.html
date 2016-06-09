@@ -2,23 +2,65 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Ruth Vega</title>
+    <title>HOME | Ruth Vega</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Design and Web Developer">
     <meta name="author" content="Ruth Vega">
     
     <link rel="shortcut icon" href="favicon.png">
-    <!--CSS-->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet" >
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/dist/hamburgers.css" rel="stylesheet">
 
-<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!-- [if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   </head>
 
 <body>
-  <section id="screen" class="mg0 pd0">
+<header id="Header">
+    <nav><!--Menu-->    
+        <div class=" navbar navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button id="btnMain" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <!--Icon main-->
+                        <span class="icon-bar txt-white "></span>
+                    </button>  
+                </div>
+                <div class=" navbar-collapse pull-right">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li>
+                            <a href="#aboutMe">
+                                SOBRE MÍ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#skills">
+                                HABILIDADES
+                            </a>
+                        </li>                  
+                        <li>
+                            <a href="#portfolio">
+                                PROYECTOS
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact">
+                                CONTACTÁME
+                            </a>
+                        </li>     
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+  <section id="screen" class="mg0 pd0"><!--VIDEO-->
     <div class="container-fluid mg0 pd0">
       <div class="row mg0 pd0">
         <div class="col-xs-12 col-md-12 col-lg-12 mg0 pd0">
@@ -28,29 +70,264 @@
           <div class="captionvd">
             <center>
               <img class="logo" src="img/logo-brown.png">
-              <h2 class="txt-gold">Designer | Visual Communicator | Web Developer</h2>
-              <h2><small class="txt-brown"> Select language</small></<h2>
-              <br>
-              <a href="home.html"><div class="btnline txt-brown">Spanish</div></a> 
-              <a href="home.html"><div class="btnline txt-brown"> English</div></a>
+              <h1 class="txt-gold webdesign">Designer | Visual Communicator | Web Developer</h1>
             </center>
           </div>
         </div>
       </div>
     </div>
   </section>
-<!-- BOOTSTRAP JAVASCRIPT -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-<!--FIXT-TEXT-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
- 	<script src="js/jquery.fittext.js"></script>
-	<script type="text/javascript">
-		$("#fittext1").fitText();
-		$("#fittext2").fitText(1.2);
-		$("#fittext3").fitText(1.1, { minFontSize: "50px", maxFontSize: "75px" });
-	</script>
+
+<section id="aboutMe" class="mg0 pd0 animated  wow bounceInDown">
+    <div class="container-fluid mg0 pd0 background-image" >
+        <div class="row mg0 pd0">
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 pd3">
+            <center>
+                <img class="img-responsive logo-slide pd2" src="img/logo-nude.png"><!--logotipo-->
+                <p class="txt-gold word"> Designer | Web Developer | Visual  Communicator</p>
+            </center> 
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <!--vacio-->
+           
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 pd5 bg-white wow bounceInRight">
+                <h3 class="txt-brown"><span class="txt-brown big-txt big-left">Hola, </span> mi nombre es Ruth Vega soy diseñadora y comunicadora visual... </h3>
+            </div>
+        </div>
+
+        <div class="row mg0 pd0">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 pd5  wow bounceInLeft  bg-white">
+                <h3 class="txt-brown text-right"><span class="txt-brown big-txt big-left">...estoy lista  </span> para desarrollar mis habilidades, creativas en proyectos ambiciosos e innovadores, en constante aprendizaje...</h3>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-6">
+                <!--vacio-->
+            </div>
+        </div>
+
+        <div class="row mg0 pd0">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 pd2">
+                <!--vacio-->
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6  bg-white wow bounceInRight">
+                <div class="row">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pd3">
+                        <a href="../docs/cvRuthVega.pdf" class="download" download="cvRuthVega.pdf">
+                        <img class="download" src="img/icons/downloadCVbrown.png">
+                        </a>
+                    </div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 pd3 text-left">
+                    <h3 class="txt-brown"><span class="txt-brown big-txt big-left">Un vistazo </span> a mis proyectos y experiencia.</h3>
+                    <a href="../docs/cvRuthVega.pdf" class="download" download="/docs/cvRuthVega.pdf">
+                        <p class="txt-gold txt-small"> Descarga Currículum.</p>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class=" wow bounceInDown">
+    <div class="container pd5">
+        <div class="row pd5">
+
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 ">
+                <center>
+                <img src="img/habilidades-tittle.png" class="img-responsive">
+            </center>
+            </div>
+
+            <div class="col-xs-10 col-sm-5 col-md-5 col-lg-5 ">            <center>
+                <img src="img/icons/developerIcon-brown.png" class="img-responsive icon-skills-web">  
+                <!--Laptop by Zoé Chartier from the Noun Project-->
+                <h3 class="txt-brown">Desarrollo Web</h3>
+                <h4 class="txt-brown txt-bar text-left">
+                    HTML  <small class="txt-white">Avanzado</small>
+                </h4>
+                <div class="progress progress-striped active">
+                    <div class="progress-bar" role="progressbar" id="myProgress_1" aria-valuenow="90">
+                    <span class="sr-only">90% Complete</span>
+                    </div>
+                </div>
+
+                <h4 class="txt-brown txt-bar text-left">
+                    CSS  <small class="txt-white">Avanzado</small>
+                </h4>
+                <div class="progress progress-striped active">
+                    <div class="progress-bar" role="progressbar" id="myProgress_2" aria-valuenow="90" >
+                    <span class="sr-only">90% Complete</span>
+                    </div>
+                </div>
+
+                <h4 class="txt-brown txt-bar text-left">
+                    SASS  <small class="txt-white">Básico</small>
+                </h4>
+                <div class="progress progress-striped active">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="30" id="myProgress_3" >
+                    <span class="sr-only">30% Complete</span>
+                    </div>
+                </div>
+                
+                <h4 class="txt-brown txt-bar text-left">
+                    JAVASCRIPT  <small class="txt-white">Básico</small>
+                </h4>
+                <div class="progress progress-striped active">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="30" id="myProgress_4">
+                    <span class="sr-only">30% Complete</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 ">
+            <center>
+                <img src="img/icons/designerIcon-brown.png" class="img-responsive icon-skills-design">  
+                <!--Web Designer by Mazil from the Noun Project-->
+                <h3 class="txt-brown ">Diseño</h3>
+                <h4 class="txt-brown txt-bar text-left">
+                    PHOTOSHOP  <small class="txt-white">Avanzado</small>
+                </h4>
+                <div class="progress progress-striped active">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="90" id="myProgress_5">
+                    <span class="sr-only">90% Complete</span>
+                    </div>
+                </div>
+                
+
+                <h4 class="txt-brown txt-bar text-left">
+                    ILLUSTRAITOR <small class="txt-white">Avanzado</small>
+                </h4>
+                <div class="progress progress-striped active">
+                    <div class="progress-bar text-left" role="progressbar" aria-valuenow="90" id="myProgress_6">
+                    <span class="sr-only">90% Complete</span>
+                    </div>
+                </div>
+                
+
+                <h4 class="txt-brown  txt-bar text-left">
+                    DREAMWEAVER  <small class="txt-white">Avanzado</small>
+                </h4>
+                <div class="progress progress-striped active">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="90" id="myProgress_7">
+                    <span class="sr-only">90% Complete</span>
+                    </div>
+                </div>
+                
+
+                <h4 class="txt-brown txt-bar text-left">
+                    INDESIGN <small class="txt-white">Intermedio</small>
+                </h4>
+                <div class="progress progress-striped active">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" id="myProgress_8">
+                    <span class="sr-only">70% Complete</span>
+                    </div>
+                </div>
+            </center>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="portfolio" class="pd5  wow bounceInDown">
+    <div class="container">
+        <p class="tittle txt-white">Proyectos</p>
+        <div class="row">
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <center>
+                <img src="img/proyectos-tittle.png" class="img-responsive">
+            </center>
+            </div>
+            <div class="col-xs-10 col-sm-10 col-md-5 col-lg-5">
+                <a  href="portfolio_design.html">
+                <div class="btnline portfolio-sec">
+                    Diseño
+                </div>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 ">
+                <a href="portfolio_web.html">
+                <div class="btnline portfolio-sec" >
+                    Desarrollo
+                    Web
+                </div>
+                </a>
+            </div>
+
+            
+        </div>
+    </div>
+</section>
+
+<section id="contact" class=" wow bounceInDown">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <center>
+                <img src="img/contact-tittle.png" class="img-responsive w20">
+            </center>
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 wow pulse pd2">
+            <center>
+                <a href="https://github.com/VegaRuth"  target="_blank">
+                    <i class="fa fa-github txt-gold zoom icons" aria-hidden="true"></i><!--github--> 
+                </a>
+            </center>
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 wow pulse pd2">
+            <center>
+                <a href="https://www.linkedin.com/in/RuthZacnicteVegaGonzalez"  target="_blank">
+                    <i class="fa fa-linkedin txt-gold zoom icons" aria-hidden="true"></i><!--linkedin--> 
+                </a>
+            </center>
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 wow pulse pd2">
+            <center>
+                <i class="fa fa-envelope txt-gold zoom icons" aria-hidden="true"></i> <!--email--> 
+                 <p class="txt-gold"> ruth222@gmail.com</p>
+            </center>
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 animated pulse pd2">
+            <center>
+                <i class="fa fa-phone txt-gold zoom icons" aria-hidden="true"></i><!--cellphone--> 
+                  <p class="txt-gold">  044 55 3915 - 5429  </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer id="Footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <center>
+                 <img class="logo-footer" src="img/logo-nude.png" alt="logotipo">
+                 
+                    © Ruth Vega | 2016 
+                 </center>
+            </div>
+        </div>
+    </div>
+</footer>
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!--Main-->
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+    <!--font-->
+    <script src="js/FlowType/flowtype.js"></script>
+
 
 </body>
 </html>

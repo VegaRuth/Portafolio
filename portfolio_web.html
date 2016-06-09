@@ -12,18 +12,17 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet" >
-    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
     
-
   </head>
 
 <body>
 <header id="Header">
-      <nav><!--Menu-->    
+    <nav><!--Menu-->    
         <div class=" navbar navbar-fixed-top" role="banner">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <button id="btnMain" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -34,22 +33,22 @@
                 <div class=" navbar-collapse pull-right">
                     <ul class="nav navbar-nav navbar-left">
                         <li>
-                            <a href="#aboutMe">
+                            <a href="index.html#aboutMe">
                                 SOBRE MÍ
                             </a>
                         </li>
                         <li>
-                            <a href="#skills">
+                            <a href="index.html#skills">
                                 HABILIDADES
                             </a>
                         </li>                  
                         <li>
-                            <a href="#portfolio">
+                            <a href="index.html#portfolio">
                                 PROYECTOS
                             </a>
                         </li>
                         <li>
-                            <a href="#contact">
+                            <a href="index.html#contact">
                                 CONTACTÁME
                             </a>
                         </li>     
@@ -60,11 +59,11 @@
     </nav>
 </header>
 
-<section id="design-works" class="pd5">
+<section id="web-works" class="pd5">
     <div class="container">
 
 
-        <div class="row pd5">
+        <div class="row wow fadeInDownBig">
            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"> <!--TO DO APP-->
             <center>
                 <img src="img/portfolio/web/logos/toDoAppLogo.png?w=400" 
@@ -73,197 +72,121 @@
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <div class="div-description">
-                    <p></p>
-                   <h3>To Do App</h3>
+                    <h3>To Do App</h3>
                     <p>Elaboración de javascript, Diseño y Maquetado, Bootstrap, Responsive Design, Javascript, jQuery, CSS, HTML.
                     </p>
                     <center>
-                     <a href=".html"><div class="btnline-small">Ver Sitio</div></a> 
-                    <a href=".html"><div class="btnline-small"> Ir a Github</div></a>   
+                    
+                     <a href="http://vegaruth.github.io/ToDoApp" target="_blank"><div class="btnline-small">Ver Sitio</div></a> 
+                     
+                    <a href="https://github.com/VegaRuth/ToDoApp" target="_blank"><div class="btnline-small"> Ir a Github</div></a>   
                     </center>
                 </div>
             </div>
         </div>
 
-
-
-
-
-        <div class="row pd5">
-           <div class="col-xs-12 col-md-8 col-lg-8"> <!--TO DO APP-->
-            <center>
-                <img src="img/portfolio/web/ToDo.png?w=400" 
-                data-zoom="img/portfolio/web/ToDo.png?w=1200" class="img-responsive">
-            </center>
-            </div>
-            <div class="col-xs-12 col-md-4 col-lg-4">
+        <div class="row wow fadeInUpBig">
+           <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"><!--SMASH-->
                 <div class="div-description">
-                    <p></p>
-                   <h3>To Do App</h3>
-                   <small>2016</small>
-                    <ul>
-                        <li>Elaboración de javascript</li>
-                        <li>Diseño y Maquetado</li>
-                        <li>Bootstrap</li>
-                        <li>Responsive Design</li>
-                        <li>Javascript</li>
-                        <li>jQuery</li>
-                        <li>CSS</li>
-                        <li>HTML</li>
-                    </ul> 
-                    <a href=".html"><div class="btnline-small">Ver Sitio</div></a> 
-                    <a href=".html"><div class="btnline-small"> Ir a Github</div></a>
+                    <h3>Smash Faces</h3>
+                    <p>Elaboración de javascript, Diseño y Maquetado, Bootstrap, Responsive Design, Javascript, jQuery, CSS, HTML.
+                    </p>
+                    <center>
+
+                     <a href="http://vegaruth.github.io/smashFaces" target="_blank"><div class="btnline-small">Ver Sitio</div></a> 
+                    <a href="https://github.com/VegaRuth/smashFaces" target="_blank"><div class="btnline-small"> Ir a Github</div></a>   
+                    </center>
                 </div>
             </div>
-        </div>
-
-        <div class="row pd5">
-            <div class="col-xs-12 col-md-4 col-lg-4"><!--SMASH FACES-->
-                <div class="div-description">
-                   <h3>Smash Faces</h3>
-                   <small>2016</small>
-                    <ul>
-                        <li>Elaboración de javascript</li>
-                        <li>Diseño y Maquetado</li>
-                        <li>Bootstrap</li>
-                        <li>Responsive Design</li>
-                        <li>Javascript</li>
-                        <li>jQuery</li>
-                        <li>CSS</li>
-                        <li>HTML</li>
-                    </ul> 
-                    <a href=".html"><div class="btnline-small">Ver Sitio</div></a> 
-                    <a href=".html"><div class="btnline-small"> Ir a Github</div></a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-8 col-lg-8">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
             <center>
-               <img src="img/portfolio/web/smashFaces.png" class="img-responsive">
+                <img src="img/portfolio/web/logos/smashLogo.png?w=400" 
+                data-zoom="img/portfolio/web/smashFaces.png?w=1200" class="img-responsive">
             </center>
             </div>
         </div>
 
-        <div class="row pd5"> 
-            <div class="col-xs-12 col-md-8 col-lg-8">
+        <div class="row wow fadeInUpBig"> 
+            <div class="col-xs-6  col-sm-6 col-md-6 col-lg-6">
             <center>
-               <img src="img/portfolio/web/musasDesk.png" class="img-responsive img-screen desktop">
-                <img src="img/portfolio/web/musasMobile.png" class="img-responsive mobile">
+               <img src="img/portfolio/web/logos/musasLogo.png" class="img-responsive">
             </center>
             </div>
-            <div class="col-xs-12 col-md-4 col-lg-4"><!--MUSAS-->
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"><!--MUSAS-->
                 <div class="div-description">
                    <h3>MUSAS A.C</h3>
-                   <small>Trabajo Colaborativo 2016</small>
-                    <ul>
-                        <li>Proyecto Ganador en Hackaton</li>
-                        <li>Diseño y Maquetado</li>
-                        <li>Implementacion de identidad corporativa</li>
-                        <li>Implementación</li>
-                        <li>Bootstrap</li>
-                        <li>Responsive Design</li>
-                        <li>jQuery</li>
-                        <li>CSS</li>
-                        <li>HTML</li>
-                    </ul>
-                    <a href=".html"><div class="btnline-small">Ver Sitio</div></a> 
-                    <a href=".html"><div class="btnline-small"> Ir a Github</div></a>
+                   <p>Proyecto Ganador en Hackaton, Diseño y Maquetado, Implementacion de identidad corporativa, Implementación, ootstrap, Responsive Design, jQuery, CSS, HTML.</p>
+                    <a href="http://vegaruth.github.io/MusasAC" target="_blank"><div class="btnline-small">Ver Sitio</div></a> 
+                    <a href="https://github.com/VegaRuth/MusasAC" target="_blank"><div class="btnline-small"> Ir a Github</div></a>
                 </div>
             </div>
         </div>
 
-        <div class="row pd5">
-            <div class="col-xs-12 col-md-4 col-lg-4"><!--KANE-->
+        <div class="row wow fadeInUpBig">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"><!--KANE-->
                 <div class="div-description">
                    <h3>KANE THEME</h3>
-                    <ul>
-                        <li>Bootstrap</li>
-                        <li>Responsive Design</li>
-                        <li>jQuery</li>
-                        <li>SASS</li>
-                        <li>CSS</li>
-                        <li>HTML</li>
-                    </ul>
-                    <a href=".html"><div class="btnline-small">Ver Sitio</div></a> 
-                    <a href=".html"><div class="btnline-small"> Ir a Github</div></a> 
+                    <p>Bootstrap, Responsive Design, jQuery, SASS, CSS, HTML</li>
+                    </p>
+                    <a href="http://vegaruth.github.io/Kane" target="_blank"><div class="btnline-small">Ver Sitio</div></a> 
+                    <a href="https://github.com/VegaRuth/Kane" target="_blank"><div class="btnline-small"> Ir a Github</div></a> 
                 </div>
             </div>
-            <div class="col-xs-12 col-md-8 col-lg-8">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
             <center>
-               <img src="img/portfolio/web/kaneTemplete.png" class="img-responsive img-screen desktop">
+               <img src="img/portfolio/web/logos/kaneLogo.png" class="img-responsive">
             </center>
             </div>
         </div>
         
-        <div class="row pd5">
-            <div class="col-xs-12 col-md-8 col-lg-8"> <!--FLAT THEME-->
+        <div class="row wow fadeInUpBig">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"> <!--FLAT THEME-->
             <center>
-                <img src="img/portfolio/web/flatTemplete.png" class="img-responsive img-screen desktop">
-                <img src="img/portfolio/web/flatMobile.png" class="img-responsive mobile">
+                <img src="img/portfolio/web/logos/flatLogo.png" class="img-responsive ">
             </center>
             </div>
-            <div class="col-xs-12 col-md-4 col-lg-4">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <div class="div-description">
                    <h3>Flat Theme</h3>
-                   <small>Trabajo Colaborativo</small>
-                    <ul>
-                        <li>Bootstrap</li>
-                        <li>Responsive Design</li>
-                        <li>Sass</li>
-                        <li>CSS</li>
-                        <li>HTML</li>
-                    </ul> 
-                    <a href=".html"><div class="btnline-small">Ver Sitio</div></a> 
-                    <a href=".html"><div class="btnline-small"> Ir a Github</div></a>
+                   <p>Bootstrap, Responsive Design, Sass, CSS, HTML.</p> 
+                    <a href="http://vegaruth.github.io/FlathTheme" target="_blank"><div class="btnline-small">Ver Sitio</div></a> 
+                    <a href="https://github.com/VegaRuth/FlathTheme" target="_blank"><div class="btnline-small"> Ir a Github</div></a>
                 </div>
             </div>
         </div>
         
-        <div class="row pd5">
-            <div class="col-xs-12 col-md-4 col-lg-4">
+        <!--<div class="row wow fadeInUpBig">
+            <div class="col-xs-6 col-sm-6col-md-6 col-lg-6">
                 <div class="div-description">
                    <h3>Portfolio Theme</h3>
-                   <small>Trabajo Colaborativo</small>
-                    <ul>
-                        <li>Bootstrap</li>
-                        <li>Responsive Design</li>
-                        <li>CSS</li>
-                        <li>HTML</li>
+                    <p>Bootstrap, Responsive Design, CSS, HTML.</p>
                     </ul>
-                    <a href=".html"><div class="btnline-small">Ver Sitio</div></a> 
-                    <a href=".html"><div class="btnline-small"> Ir a Github</div></a>
+                    <a href=".html" target="_blank"><div class="btnline-small">Ver Sitio</div></a> 
+                    <a href=".html" target="_blank"><div class="btnline-small"> Ir a Github</div></a>
                 </div>
-            </div>
-            <div class="col-xs-12 col-md-8 col-lg-8"> <!--PORTFOLIO THEME-->
+            </div>-->
+            <!--<div class="col-xs-6 col-sm-12 col-md-6 col-lg-6"> PORTFOLIO THEME
             <center>
-                <img src="img/portfolio/web/portfolioTemplete.png" class="img-responsive img-screen desktop">
-                <img src="img/portfolio/web/portfolioMobile.png" class="img-responsive mobile">
+                <img src="img/portfolio/web/logos/portfolioLogo.png" class="img-responsive">
             </center>
             </div>
-        </div>
+        </div>-->
 
-        <div class="row pd5">
-           <div class="col-xs-12 col-md-8 col-lg-8"> <!--LA REPÚBLICA-->
+        <!--<div class="row wow fadeInUpBig">
+           <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 "> LA REPÚBLICA
             <center>
-                <img src="img/portfolio/web/LaRepublicaTemplete.png" class="img-responsive img-screen desktop">
+                <img src="img/portfolio/web/logos/republicaLogo.png" class="img-responsive">
             </center>
             </div>
-            <div class="col-xs-12 col-md-4 col-lg-4">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <div class="div-description">
                    <h3>La República</h3>
-                   <small>Trabajo Colaborativo</small>
-                    <ul>
-                        <li>Bootstrap</li>
-                        <li>Responsive Design</li>
-                        <li>SASS</li>
-                        <li>CSS</li>
-                        <li>HTML</li>
-                    </ul>
-                    <a href=".html"><div class="btnline-small">Ver Sitio</div></a> 
-                    <a href=".html"><div class="btnline-small"> Ir a Github</div></a> 
+                   <p>Bootstrap, Responsive Design, SASS, CSS, HTML.</P>
+                    <a href=".html" target="_blank"><div class="btnline-small">Ver Sitio</div></a> 
+                    <a href=".html" target="_blank"><div class="btnline-small"> Ir a Github</div></a> 
                 </div>
             </div>
-        </div>
-
+        </div>-->
     </div>
 </section>
 
@@ -286,19 +209,6 @@
 <script type="text/javascript" src="js/main.js"></script>
 
 
-<!-- Zoom-->
-<script src="js/dist/Drift.js"></script>
-<script>
-    
-      new Drift(document.querySelector('.drift-demo-trigger'), {
-        paneContainer: document.querySelector('.detail'),
-        inlinePane: 900,
-        inlineOffsetY: -85,
-        containInline: true,
-        hoverBoundingBox: true
-      });
-    
-</script>
 
 </body>
 </html>
